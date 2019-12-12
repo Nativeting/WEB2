@@ -1,0 +1,105 @@
+*{
+			padding:0;
+			margin:0;
+		}
+		ul,li{
+			list-style:none;
+		}
+		#side{
+			height:500px;
+			/*background-size:100% 100%;*/
+			border-left:solid 2px #000;
+			border-right:solid 2px #000;
+			box-shadow:0 3px 3px -1px #aaa;
+
+		}
+		#top{
+			height:20px;
+			background-size:100% 100%;
+			background:#ccc;
+		}
+		#attention{
+			line-height:20px;
+			margin-left:222px;
+			margin-right:10px;
+			float:left;
+			
+		}
+		#tishi{
+			color:red;
+			font-size:12px;
+			line-height:20px;
+			position:relative;
+			left:970px;
+		}
+		.main{
+			height:480px;
+			background:#fff;
+			background-size:100% 100%;
+		}
+		.kong{
+			height:12px;
+		}
+		.box{
+			width:1200px;
+			height:400px;
+			/*background:pink;*/
+			margin:0 auto;
+			position:relative;
+			overflow:hidden;
+		}
+		.slider{
+			width:8400px;
+			position:absolute;
+			left:-1200px;
+		}
+		.slide{
+			width:1200px;
+			overflow:hidden;
+			float:left;
+		}
+		.box>span{
+			display:block;
+			width:30px;
+			height:50px;
+			text-align:center;
+			cursor:pointer;
+			color: ;
+			top:175px;
+			line-height:50px;
+			background:rgb(255,0,0);
+			font-size:30px;
+			position:absolute;
+			/*display:none;*/
+			opacity:0;
+		}
+		#left{
+			left:30px;
+		}
+		#right{
+			right:30px;
+		}
+		.nav{
+			position:absolute;
+			left:500px;
+			bottom:22px;
+		}
+		.nav>li{
+			text-align:center;
+			float:left;
+			width:20px;
+			background:#ccc;
+			color:#000;
+			cursor:pointer;
+			margin:0 10px;
+			border-radius:50%;
+		}
+		.nav .active{
+			color:#fff;
+			background:red;
+		}
+		#scroll1{
+			width:970px;
+			overflow:hidden;
+			float:left;
+		}
